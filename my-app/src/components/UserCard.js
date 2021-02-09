@@ -12,6 +12,7 @@ const UserCard = props => {
             <h2>{props.user.login} Information</h2>
             <CardStyled src={props.user.avatar_url}/>
             <p>Location:{props.user.location}</p>
+            <p>Come visit my page!</p>
             <a href={props.user.html_url}>Github</a>
 
         </div>
